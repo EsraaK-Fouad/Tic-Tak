@@ -12,4 +12,4 @@ jobs:
       - name: Play Tic Tac Toe
         uses: remcokranenburg/tic-tac-toe-action@main
         with:
-          token: ${{secrets.METRICES_TOKEN}}
+          token: ${{METRICES_TOKEN}}
